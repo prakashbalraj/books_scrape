@@ -1,4 +1,4 @@
-hdfs dfs -put prakashbalraj/data/books_scrape_data.csv /tmp/books/
+hdfs dfs -put prakashbalraj/books_scrape_data.csv /tmp/books/
 
 drop table if exists books_product_details;
 
