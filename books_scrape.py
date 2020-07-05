@@ -69,7 +69,7 @@ def get_product_values(url):
 
 
 def csv_export(df_data):
-    df_data.to_csv(r'prakashbalraj/data/books_scrape_data.csv', index=False, header=True)
+    df_data.to_csv(r'prakashbalraj/books_scrape_data.csv', index=False, header=True)
     return ('Successfully data exported to csv!')
 
 
